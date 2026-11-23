@@ -37,7 +37,7 @@ The cleaned taxi schemas were aligned and combined using `UNION ALL`. Pickup and
 
 ## 2. Business Analysis
 
-### 2.1 Monthly taxi activity (Question 1)
+### 2.1 Monthly taxi activity 
 
 Monthly recorded trip counts were frequently above **14 million** in 2014–2015, with a pronounced decline in 2020: **6,673,908** trips in February 2020, **3,219,013** in March, and **272,550** in April. Busiest pickup hours were commonly **18:00–19:00**, with shifts towards **14:00–15:00** during some low-activity pandemic months. Average passengers per trip decreased from around **1.7** in 2014 to **1.3–1.4** in 2024, while average payment per trip increased from approximately **$14–$16** to **$27–$29**.
 
@@ -45,7 +45,7 @@ Monthly recorded trip counts were frequently above **14 million** in 2014–2015
 
 **Suggested figure:** `images/monthly_trips.png` — monthly recorded trips, 2014–2024, with a 2020 annotation.
 
-### 2.2 Yellow vs Green taxi characteristics (Question 2)
+### 2.2 Yellow vs Green taxi characteristics 
 
 | Measure | Yellow Taxi | Green Taxi |
 | --- | ---: | ---: |
@@ -60,7 +60,7 @@ Yellow trips were slightly longer on average; Green trips had higher typical cal
 
 **Suggested figure:** `images/taxi_type_comparison.png` — paired bars for duration, distance and speed (separate scales/panels if charting).
 
-### 2.3 Revenue by location and time (Questions 3–4)
+### 2.3 Revenue by location and time 
 
 Question 3 grouped trips by **taxi colour, pickup borough, drop-off borough, year-month, weekday and pickup hour**, calculating trip count, average distance, average payment and total payment. The resulting aggregated table also supported the historical baseline in Part 3.
 
@@ -83,7 +83,7 @@ Together these ten pairs accounted for **97.03%** of 2023 recorded taxi revenue.
 
 **Suggested figure:** `images/top10_revenue.png` — horizontal bar chart ranked by revenue.
 
-### 2.4 Tipping behaviour (Questions 5–6)
+### 2.4 Tipping behaviour 
 
 | Measure | Trips | Share |
 | --- | ---: | ---: |
@@ -95,13 +95,13 @@ These are shares of **recorded** tips in the dataset; they should not be read as
 
 **Suggested figure:** `images/tipping.png`, `images/tipping2.png` — two clearly labelled percentage bars using their different denominators.
 
-### 2.5 Trip duration and efficiency (Questions 7–8)
+### 2.5 Trip duration and efficiency 
 
 **Suggested figure:** `images/tripdurationandefficiency.png`.
 
 **Question 8 recommendation:** Under-5-minute trips had the lowest distance per dollar, making them attractive **on that efficiency measure alone**. This does **not** establish that they generate the highest earnings over a full shift.
 
-### 2.6 Estimated 10-hour shift earnings (Question 9)
+### 2.6 Estimated 10-hour shift earnings 
 
 The shift simulation assumed **600 working minutes** and **five minutes of unpaid waiting/repositioning time per trip**.
 

@@ -30,8 +30,8 @@ pip install -r requirements.txt
 1. Clone the repository:
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-name>
+git clone https://github.com/ezgikemerr/nyc-taxi-big-data-analytics.git
+cd nyc-taxi-big-data-analytics
 ```
 2. Download the NYC Yellow Taxi, Green Taxi, and Taxi Zone Lookup datasets from the official NYC TLC website.
 
